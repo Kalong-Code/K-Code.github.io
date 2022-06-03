@@ -5,9 +5,7 @@ import  Head from './Head'
 function Home() {
   return (
     <Container>
-      <Head
-      backgroundImg = "bg-img.png"
-      />
+      <Head/>
     </Container>
   );
 }
