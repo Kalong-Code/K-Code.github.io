@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components';
 
-//Styles
-import '../../public/css/layout.css'
+
 
 function Head({title,description,backgroundImg}) {
     return (
+        
         <Wrap >
             <WhiteBg>
                 <BgImage  bgImage={backgroundImg}>
@@ -46,19 +46,19 @@ function Head({title,description,backgroundImg}) {
                                 <NavItem>
                                    <NavLink  href="/home" eventKey="link-2">Pubilcations</NavLink>
                                 </NavItem>
-                                <Bottun>
-                                   <NavLink  href="./component/Resume" eventKey="Resume" disabled>Author</NavLink>
-                                </Bottun>
+                                
+                                    <Bottun>
+                                     <NavLink  href="../PortfolioContainer/Home/Profile.js" eventKey="Resume" disabled>Author</NavLink>
+                                    </Bottun>
+                                
                             </NavBar>
                         </DownDiv>    
                     </Column> 
                 </BgImage>
             </WhiteBg>
-            <div className="scocial">
-               <i className="fab fa-facebook"></i>
-            </div>
             
         </Wrap>
+        
         
     )
     
